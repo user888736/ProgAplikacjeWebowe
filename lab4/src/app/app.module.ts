@@ -4,11 +4,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { UsersListComponent } from './users-list/users-list.component';
+import { PriceCardComponent } from './price-card/price-card.component';
+import { PriceCardWithChartComponent } from './price-card-with-chart/price-card-with-chart.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    UsersListComponent
+    UsersListComponent,
+    PriceCardComponent,
+    PriceCardWithChartComponent
   ],
   imports: [
     BrowserModule,

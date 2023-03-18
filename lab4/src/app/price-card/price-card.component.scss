@@ -1,0 +1,23 @@
+:host{
+    width: 300px;
+    height: 100px;
+    display: block;
+    border: 1px solid black;
+
+}
+.icon{
+    height: 50px;
+}
+
+.inside{
+    display: flex;
+}
+p{
+    margin: 0;
+}
+p.title{
+    margin: 10px;
+}
+p.name{
+    margin: 5px;
+}
