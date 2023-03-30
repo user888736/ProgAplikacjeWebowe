@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'lab4-price-card-with-chart',
@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./price-card-with-chart.component.scss']
 })
 export class PriceCardWithChartComponent {
-
+    @Input() title!: string;
+    @Input() amount!: string;
+    @Input() color!: string;
+    @Input() chart!: string;
+    
 }
